@@ -1,14 +1,13 @@
 package ru.artem.alaverdyan.consoleextended.buttons;
 
-import aoc.kingdoms.lukasz.jakowski.CFG;
-import aoc.kingdoms.lukasz.jakowski.Game;
-import aoc.kingdoms.lukasz.jakowski.GameValues;
-import aoc.kingdoms.lukasz.jakowski.SoundsManager;
-import aoc.kingdoms.lukasz.menu.Colors;
-import aoc.kingdoms.lukasz.menu_element.button.ButtonIcon;
-import aoc.kingdoms.lukasz.menu_element.menuElementHover.*;
-import aoc.kingdoms.lukasz.menusInGame.InGame_Console;
-import aoc.kingdoms.lukasz.textures.Images;
+
+import aoh.kingdoms.history.mainGame.CFG;
+import aoh.kingdoms.history.mainGame.Game;
+import aoh.kingdoms.history.mainGame.SoundsManager;
+import aoh.kingdoms.history.menu.Colors;
+import aoh.kingdoms.history.menu_element.button.ButtonIcon;
+import aoh.kingdoms.history.menu_element.menuElementHover.*;
+import aoh.kingdoms.history.menusInGame.InGame_Console;
 
 import java.util.ArrayList;
 import java.util.List;

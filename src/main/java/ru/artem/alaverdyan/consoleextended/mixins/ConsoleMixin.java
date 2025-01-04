@@ -1,9 +1,9 @@
 package ru.artem.alaverdyan.consoleextended.mixins;
 
-import aoc.kingdoms.lukasz.jakowski.CFG;
-import aoc.kingdoms.lukasz.jakowski.GameValues;
-import aoc.kingdoms.lukasz.menu_element.MenuElement;
-import aoc.kingdoms.lukasz.textures.Images;
+import aoh.kingdoms.history.mainGame.CFG;
+import aoh.kingdoms.history.mainGame.GameValues;
+import aoh.kingdoms.history.menu_element.MenuElement;
+import aoh.kingdoms.history.textures.Images;
 import ru.artem.alaverdyan.Mixin;
 import ru.artem.alaverdyan.consoleextended.buttons.Button_ExecuteCommand;
 import ru.artem.alaverdyan.injections.At;
@@ -12,7 +12,7 @@ import ru.artem.alaverdyan.injections.ReturnTo;
 
 import java.util.List;
 
-@Mixin(value = "aoc.kingdoms.lukasz.menusInGame.InGame_Console")
+@Mixin(value = "aoh.kingdoms.history.menusInGame.InGame_Console")
 public class ConsoleMixin {
     @Inject(method = "InGame_Console", constructorParameters = {boolean.class}, at = @At(value = "BY", by = 64), returnTo = @ReturnTo(to = "buttonY"))
     public int injected(List<MenuElement> menuElements, int paddingLeft, int buttonY, int menuWidth) {
